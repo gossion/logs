@@ -1,0 +1,4 @@
+/etc/sudoers: parsed OK
+/etc/sudoers.d/README: parsed OK
+/etc/sudoers.d/director: parsed OK
+/etc/sudoers.d/waagent: parsed OK

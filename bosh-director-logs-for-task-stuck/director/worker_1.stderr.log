@@ -1,0 +1,5 @@
+/var/vcap/data/packages/director/9479e8afae819062cb8259e44b47436e1304a4cb/gem_home/ruby/2.4.0/gems/bosh-director-0.0.0/lib/bosh/director/worker.rb:72:in `ensure_migrations': Migrations not current after 50 retries (RuntimeError)
+	from /var/vcap/data/packages/director/9479e8afae819062cb8259e44b47436e1304a4cb/gem_home/ruby/2.4.0/gems/bosh-director-0.0.0/lib/bosh/director/worker.rb:18:in `prep'
+	from /var/vcap/packages/director/gem_home/ruby/2.4.0/gems/bosh-director-0.0.0/bin/bosh-director-worker:31:in `<top (required)>'
+	from /var/vcap/packages/director/bin/bosh-director-worker:29:in `load'
+	from /var/vcap/packages/director/bin/bosh-director-worker:29:in `<main>'

@@ -1,0 +1,4 @@
+2018/08/28 15:00:38 [error] 5#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /info HTTP/1.1", upstream: "http://127.0.0.1:25556/info", host: "127.0.0.1:25555"
+2018/08/28 15:00:38 [error] 6#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /info HTTP/1.1", upstream: "http://127.0.0.1:25556/info", host: "127.0.0.1:25555"
+2018/08/28 15:07:44 [error] 6#0: *873 upstream prematurely closed connection while reading response header from upstream, client: 10.0.0.100, server: , request: "GET /tasks/2 HTTP/1.1", upstream: "http://127.0.0.1:25556/tasks/2", host: "10.0.0.4:25555"
+2018/08/28 15:11:11 [error] 6#0: *893 upstream prematurely closed connection while reading response header from upstream, client: 10.0.0.100, server: , request: "POST /releases? HTTP/1.1", upstream: "http://127.0.0.1:25556/releases?", host: "10.0.0.4:25555"
